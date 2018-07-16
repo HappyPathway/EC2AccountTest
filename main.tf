@@ -11,8 +11,8 @@ module "test_instance" {
   source  = "app.terraform.io/Darnold-DevTeam/test-instance/aws"
   version = "1.0.0"
 
-  aws_account_name = "${var.test_instance_aws_account_name}"
-  service_name = "${var.test_instance_service_name}"
-  vault_addr = "${var.test_instance_vault_addr}"
-  vault_token = "${var.test_instance_vault_token}"
+  aws_account_name = "${var.aws_account_name}"
+  service_name = "${var.service_name}"
+  vault_addr = "${var.vault_addr}"
+  vault_token = "${var.vault_token}"
 }
