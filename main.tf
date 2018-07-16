@@ -9,7 +9,7 @@ variable "vault_token" {}
 // Modules
 module "test_instance" {
   source  = "app.terraform.io/Darnold-DevTeam/test-instance/aws"
-  version = "1.0.0"
+  version = "2.0.0"
 
   aws_account_name = "${var.aws_account_name}"
   service_name = "${var.service_name}"
